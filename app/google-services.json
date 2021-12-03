@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "121669495244",
+    "firebase_url": "https://uwatch-13db6-default-rtdb.firebaseio.com",
+    "project_id": "uwatch-13db6",
+    "storage_bucket": "uwatch-13db6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121669495244:android:dac973731fab043606d569",
+        "android_client_info": {
+          "package_name": "eee.eee.ee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121669495244-u154097pnuilspd5sc910m32r99834gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsbRzitg7tGeVkeZJzIsUrSXFG4J-BtYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121669495244-u154097pnuilspd5sc910m32r99834gm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121669495244:android:cce82553a6fc158006d569",
+        "android_client_info": {
+          "package_name": "iao.project.uwatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121669495244-c939l1b8jt6kt05f9mjdrb6o1687v4bl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "iao.project.uwatch",
+            "certificate_hash": "d0ba6fce610f5d9170d0d71f1b3add2cab1294d1"
+          }
+        },
+        {
+          "client_id": "121669495244-u154097pnuilspd5sc910m32r99834gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsbRzitg7tGeVkeZJzIsUrSXFG4J-BtYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121669495244-u154097pnuilspd5sc910m32r99834gm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

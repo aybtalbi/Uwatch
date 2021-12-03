@@ -1,0 +1,193 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_dialog"
+    android:elevation="5dp">
+
+    <ImageView
+        android:id="@+id/dialog_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/transparent"
+        android:backgroundTint="@color/myblue"
+        android:src="@drawable/filter" />
+
+    <TextView
+        android:id="@+id/sortBy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_logo"
+        android:layout_marginVertical="10dp"
+        android:fontFamily="@font/changa_one"
+        android:gravity="center_horizontal"
+        android:text="Sort by"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:id="@+id/alpha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sortBy"
+        android:stretchColumns="0,1">
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <RadioButton
+                android:id="@+id/az"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/custom_dialog_button"
+                android:button="@android:color/transparent"
+                android:drawableLeft="@drawable/down_color_selector"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="TITLE"
+                android:textColor="@color/radio_flat_text_selector"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/za"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/custom_dialog_button"
+                android:button="@android:color/transparent"
+                android:drawableRight="@drawable/up_color_selector"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="TITLE"
+                android:textColor="@color/radio_flat_text_selector"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="10dp">
+
+            <RadioButton
+                android:id="@+id/dateASC"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/custom_dialog_button"
+                android:button="@android:color/transparent"
+                android:drawableLeft="@drawable/down_color_selector"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="DATE"
+                android:textColor="@color/radio_flat_text_selector"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/dateDESC"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/custom_dialog_button"
+                android:button="@android:color/transparent"
+                android:drawableRight="@drawable/up_color_selector"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="DATE"
+                android:textColor="@color/radio_flat_text_selector"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <RadioButton
+                android:id="@+id/rateASC"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/custom_dialog_button"
+                android:button="@android:color/transparent"
+                android:drawableLeft="@drawable/down_color_selector"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="RATE"
+                android:textColor="@color/radio_flat_text_selector"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rateDESC"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/custom_dialog_button"
+                android:button="@android:color/transparent"
+                android:drawableRight="@drawable/up_color_selector"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="RATE"
+                android:textColor="@color/radio_flat_text_selector"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/valid"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:layout_span="2"
+                android:background="@drawable/custom_dialog_button"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="VALIDATE"
+                android:textColor="@color/dark_gray"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+
+    <!--  <RelativeLayout
+          android:id="@+id/spinner"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:background="@drawable/spinner_style"
+          android:orientation="horizontal"
+          android:layout_below="@+id/Category"
+          android:layout_marginBottom="30dp">
+
+          <Spinner
+              android:id="@+id/spinner2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_centerVertical="true"
+              android:layout_gravity="center"
+              android:background="@android:color/transparent"
+              android:gravity="center"
+              android:layout_marginLeft="5dp"
+              android:spinnerMode="dropdown" />
+
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_gravity="center"
+              android:src="@drawable/ic_spinner_simple"
+              android:layout_margin="3dp"/>
+
+      </RelativeLayout>-->
+
+</RelativeLayout>

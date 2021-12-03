@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:elevation="4dp">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_color"
+            android:tint="@color/button_nav"
+            android:src="@drawable/back"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageButton
+            android:id="@+id/show_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_toLeftOf="@+id/filter"
+            android:background="@drawable/btn_color"
+            android:tint="@color/button_nav"
+            android:src="@drawable/black_grid" />
+
+        <ImageButton
+            android:id="@+id/filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/back"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_color"
+            android:tint="@color/button_nav"
+            android:src="@drawable/ic_filter"
+            android:layout_marginRight="5dp"/>
+    </RelativeLayout>
+
+    <ViewStub
+        android:id="@+id/stub_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:inflatedId="@+id/showlayout"
+        android:layout="@layout/my_listview" />
+
+    <ViewStub
+        android:id="@+id/stub_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:background="@color/white"
+        android:inflatedId="@+id/showlayout"
+        android:layout="@layout/my_gridview" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_centerInParent="true"
+        android:indeterminateTint="@color/myblue" />
+
+</RelativeLayout>

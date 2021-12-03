@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_main_activity"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/menu_search"
+            android:icon="@drawable/black_search"
+            android:title="@string/search" />
+        <item
+            android:id="@+id/menu_myList"
+            android:icon="@drawable/mylist"
+            android:title="@string/myList" />
+        <item
+            android:id="@+id/movies"
+            android:icon="@drawable/movies"
+            android:title="@string/movies" />
+        <item
+            android:id="@+id/series"
+            android:icon="@drawable/ic_series"
+            android:title="@string/series" />
+    </group>
+    <item android:title="@string/categories">
+        <menu>
+            <group android:checkableBehavior="single">
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/action"
+                        android:icon="@drawable/movie"
+                        android:title="@string/action" />
+                    <item
+                        android:id="@+id/comedy"
+                        android:icon="@drawable/movie"
+                        android:title="@string/comedy" />
+                    <item
+                        android:id="@+id/crime"
+                        android:icon="@drawable/movie"
+                        android:title="@string/crime" />
+                    <item
+                        android:id="@+id/horror"
+                        android:icon="@drawable/movie"
+                        android:title="@string/horror" />
+                    <item
+                        android:id="@+id/Drama"
+                        android:icon="@drawable/movie"
+                        android:title="Drama" />
+                    <item
+                        android:id="@+id/thriller"
+                        android:icon="@drawable/movie"
+                        android:title="@string/thriller" />
+                    <item
+                        android:id="@+id/family"
+                        android:icon="@drawable/movie"
+                        android:title="Family" />
+                    <item
+                        android:id="@+id/anime"
+                        android:icon="@drawable/movie"
+                        android:title="@string/anime" />
+                </group>
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_profile"
+                    android:icon="@drawable/profile"
+                    android:title="@string/profile" />
+                <item
+                    android:id="@+id/menu_logout"
+                    android:icon="@drawable/logout"
+                    android:title="@string/logout" />
+            </group>
+        </menu>
+    </item>
+</menu>

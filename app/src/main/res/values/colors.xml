@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="dark_gray">#2d2d2d</color>
+    <color name="dark_gray_select">#424141</color>
+    <color name="light_gray">#AAAAAA</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue_white">#EFF3F6</color>
+    <color name="white_shadow">#F7F7FD</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorOverlay">#BF000000</color>
+    <color name="transparent">#00000000 </color>
+    <color name="colorPrimaryDark">#3262C4</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#C11515</color>
+    <color name="gray">#252525</color>
+    <color name="colorOrange">#e62e00</color>
+    <color name="colorbtn2">#cc0052</color>
+    <color name="colorYellow">#cc7a00</color>
+    <color name="colorBlue">#283593</color>
+    <color name="colorBorn">#80D84315</color>
+    <color name="colorBorn2">#4B5A1F04</color>
+    <color name="colorBlue2">#A90D1B36</color>
+    <color name="light_green">#BEF4CB</color>
+    <color name="green">#3CE300</color>
+    <color name="FondoActionBar">#CA6760</color>
+    <color name="colorAccent">#C73D33</color>
+    <color name="myblue">#0099ff</color>
+    <color name="myblue_background">#B5DAF3</color>
+    <color name="orange">#EF7000</color>
+    <color name="list_btn_not_active">#8C8B8D</color>
+    <color name="light_gray_transparent">#6BAAAAAA</color>
+    <color name="light_myblue">#FFD2E3EF</color>
+    <color name="searchBlue">#66b3ff</color>
+</resources>

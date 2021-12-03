@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_header_main"
+    android:paddingTop="30dp"
+    android:paddingBottom="30dp"
+    android:paddingLeft="20dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/main_header_picture"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/upload"
+        android:elevation="10dp"/>
+    <TextView
+        android:id="@+id/main_header_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/main_header_picture"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/main_header_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_below="@id/main_header_username"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:textSize="15sp"/>
+</RelativeLayout>
